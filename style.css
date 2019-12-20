@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+
+.judul {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    border: 5px solid darkgrey;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.thumb1 {
+    width: 200px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.thumb1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.active {
+    opacity: 0.5;
+}
